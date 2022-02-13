@@ -1,0 +1,101 @@
+body{
+    background-color: antiquewhite;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav ul{
+    display: flex;
+    background-color: black;
+    color:white;
+    height:59px;
+    list-style: none;
+}
+
+li img{
+    width: 82px
+    
+}
+li{
+    margin: 13px
+    padding: 0px 15px ;
+}
+.brandimg{
+    display: flex;
+}
+nav ul li{
+    padding: 12px 22px
+}
+.bottom{
+    position: sticky;
+    background-color: black;
+        height: 57px;
+        display: flex;
+        justify-content: center;
+        color: white;
+         flex-direction: column;
+        align-items: center;
+        padding-top: 22px;
+       
+
+ }
+ #progressbar{
+    width:78vw;
+}
+
+.container{
+    
+     height: 80vh;
+    width:80vw; 
+   margin:23px auto;
+    background-color: black;
+     background-image: url("headset.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%; 
+    color:white;
+    border-radius: 23px;
+    padding: 34px;
+}
+
+
+.songitem{
+    background-color: aliceblue;
+    width: 300px;
+    height:30px;
+    border-radius: 20px;
+        padding:10px;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    margin: 14px;
+}
+
+.songitem img{
+    border-radius: 64px;
+}
+
+.gif{
+    position: absolute;
+    left: 0px;
+}
+
+.masterplay{
+    cursor: pointer;
+}
+.subbutton{
+    cursor: pointer;
+}
+nav ul li:hover{
+    background-color:dimgrey;
+}
+.brandimg:hover{
+    background-color: black;
+    
+}
+.songitem:hover{
+    background-color: lightpink;
+}
+nav{
+    position:sticky;
+}
