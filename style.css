@@ -78,9 +78,10 @@ nav ul li{
 .gif{
     position: absolute;
     left: 0px;
+    transition: opacity 0.8s ease-in;
 }
 
-.masterplay{
+#masterplay{
     cursor: pointer;
 }
 .subbutton{
